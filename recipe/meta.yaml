@@ -1,5 +1,5 @@
 {% set name = "dask-bigquery" %}
-{% set version = "2021.10.1" %}
+{% set version = "2022.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 465c76c296c80f3719c3c308bc992f1d9735462455a542203aebfaa61bad372b
+  sha256: 40df594252f036f724044cee2f6f6f0ce0ff6691326aea66cfa16afa94b98460
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,11 +35,11 @@ test:
     - pip check
 
 about:
-  home: https://github.com/coiled/dask-bigquery 
+  home: https://github.com/coiled/dask-bigquery
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Read data from Google BigQuery with Dask'
+  summary: Read data from Google BigQuery with Dask
   doc_url: https://github.com/coiled/dask-bigquery/blob/main/README.md
   dev_url: https://github.com/coiled/dask-bigquery
 
