@@ -1,5 +1,5 @@
 {% set name = "dask-bigquery" %}
-{% set version = "2022.5.0" %}
+{% set version = "2023.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 40df594252f036f724044cee2f6f6f0ce0ff6691326aea66cfa16afa94b98460
+  sha256: 11dca7260c94ef296212530e7ea9a0992f4f491a14d5a31d9b9c69c5a67ff805
 
 build:
   noarch: python
