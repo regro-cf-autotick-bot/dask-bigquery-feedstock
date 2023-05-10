@@ -1,11 +1,11 @@
-About dask-bigquery
-===================
+About dask-bigquery-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-bigquery-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/coiled/dask-bigquery
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-bigquery-feedstock/blob/main/LICENSE.txt)
 
 Summary: Read data from Google BigQuery with Dask
 
