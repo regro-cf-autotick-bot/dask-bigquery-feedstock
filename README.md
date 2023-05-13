@@ -7,7 +7,7 @@ Home: https://github.com/coiled/dask-bigquery
 
 Package license: BSD-3-Clause
 
-Summary: Read data from Google BigQuery with Dask
+Summary: Read/write data from/to Google BigQuery with Dask
 
 Development: https://github.com/coiled/dask-bigquery
 
