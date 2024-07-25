@@ -1,13 +1,13 @@
 {% set name = "dask-bigquery" %}
-{% set version = "2023.9.0" %}
+{% set version = "2024.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d5129f93f2e96c8ea4a14f9bf1c9789b7f0d2d8e76eaddd4f26c3feb896435ca
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dask_bigquery-{{ version }}.tar.gz
+  sha256: 2807bbdd934627d0ed47c58d0e7b6075af9cba7e6f2d2e4a1e2173e20e76a023
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
   run:
-    - python >=3.8
-    - dask
+    - python >=3.9
+    - dask >=2024.3.0
     - gcsfs
     - google-cloud-bigquery >=2.11.0
     - google-cloud-bigquery-storage
