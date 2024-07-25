@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dask_bigquery-{{ version }}.tar.gz
   sha256: 2807bbdd934627d0ed47c58d0e7b6075af9cba7e6f2d2e4a1e2173e20e76a023
 
 build:
